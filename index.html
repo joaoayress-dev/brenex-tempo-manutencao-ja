@@ -650,7 +650,6 @@
     </main>
 
     <script>
-        // Timer functionality
         let seconds = 0;
         let timerInterval;
 
@@ -668,7 +667,6 @@
             document.getElementById('timer').textContent = display;
         }
 
-            // Start timer when page loads
             window.addEventListener('load', function() {
                 timerInterval = setInterval(updateTimer, 1000);
             });
